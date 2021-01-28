@@ -7,6 +7,7 @@
 @import "buttons.css";
 @import "main.css";
 @import "footer.css";
+@import "responsible.css";
 
 /** Reset*/
 *{
@@ -26,7 +27,7 @@ body {
     background-image: url(../images/bolha-background.png);
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 650px;
+    /* background-size: 650px; */
 }
 
 .container {
