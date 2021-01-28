@@ -6,6 +6,7 @@
 @import "header.css";
 @import "buttons.css";
 @import "main.css";
+@import "footer.css";
 
 /** Reset*/
 *{
@@ -17,9 +18,16 @@
     font-weight: 300;
     vertical-align: baseline;
     text-decoration: none;
+    list-style: none;
 }
 
-/** */
+/** backgroung */
+body {
+    background-image: url(../images/bolha-background.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 650px;
+}
 
 .container {
     width: 1024px;

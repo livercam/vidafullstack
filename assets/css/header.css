@@ -7,9 +7,7 @@ header section {
 header nav ul {
     display: flex;
     flex-direction: row;
-
     align-items: center;
-    list-style: none;
 }
 
 header nav ul li a {
