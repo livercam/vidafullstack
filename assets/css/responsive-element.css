@@ -101,7 +101,13 @@
         flex-direction: column;
     }
     header nav ul li {
-        line-height: 24px;
+        line-height: 26px;
+    }
+    header nav {
+        background-color: #ffff;
+        width: 250px;
+        padding: 0px 0px 10px 0;
+        box-shadow: 0px 10px 30px 0px rgba(0 , 0, 0, 0.3);
     }
 }
 
@@ -111,5 +117,14 @@
     }
     .sobre-web-design figcaption  img {
         width: 260px;
+    }
+}
+
+@media(max-width:320px) {
+    .container{
+        width:240px;
+    }
+    .sobre-web-design figcaption  img {
+        width: 240px;
     }
 }
