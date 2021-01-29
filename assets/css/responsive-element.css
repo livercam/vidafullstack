@@ -1,0 +1,115 @@
+@media (max-width: 1100px) {
+    .container {
+        width: 950px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 900px;
+    }
+    .sobre-web-design figcaption img {
+        width: 620px;
+    }
+}
+
+@media (max-width: 950px) {
+    .container {
+        width: 800px;
+    }
+    .sobre-web-design figcaption img {
+        width: 550px;
+    }   
+}
+
+@media (max-width: 840px) {
+    body {
+        background-color: #b1f4ff;
+    }
+    .container {
+        width: 700px;
+    }    
+    .sobre-web-design  {
+       flex-direction: column;
+       padding: 25px 0px 0px 0px;
+    }
+    .sobre-web-design article {
+        width: 100%;       
+    }
+    .sobre-web-design article h1 {
+        font-size: 45px;
+    }
+    .sobre-web-design article h2 {
+        font-size: 28px;
+    }
+    footer ul.row {
+        justify-content: center;
+    }   
+}
+
+@media (max-width: 730px) {
+    .container {
+        width: 600px;
+    }
+    header section.row {
+        flex-direction: column;
+    }
+    header section img {        
+        padding: 0px 0px 30px 0px
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 500px;
+    }
+    .sobre-web-design figcaption img {
+        width: 500px;
+        padding: 20px 0 0 0;
+    }   
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 390px;
+    }
+    .sobre-web-design figcaption img {
+        width: 390px;
+        padding: 20px 0 0 0;
+    } 
+    .sobre-web-design  {
+        flex-direction: column;
+        padding: 10px 0px 0px 0px;
+     }
+}
+
+@media (max-width:420px) {
+    .container{
+        width: 340px;
+    }
+    .sobre-web-design figcaption img {
+        width: 320px;
+        padding: 20px 0 0 0;
+    } 
+   
+    header section img {        
+        padding: 0px 0px 10px 0px;
+        width: 50%;
+
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li {
+        line-height: 24px;
+    }
+}
+
+@media(max-width:360px) {
+    .container{
+        width:280px;
+    }
+    .sobre-web-design figcaption  img {
+        width: 260px;
+    }
+}
